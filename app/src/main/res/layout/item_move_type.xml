@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+        <variable
+            name="holder"
+            type="com.xhh.android.rv.holder.ItemViewHolder" />
+        <variable
+            name="item"
+            type="com.example.android.rv.model.MoveType" />
+    </data>
+    <com.google.android.material.textview.MaterialTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="16sp"
+        android:gravity="center|start"
+        android:drawableEnd="@drawable/arrow_down"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:onClick="@{()->holder.onExpandClick()}"
+        android:text="@{item.name}"/>
+
+</layout>

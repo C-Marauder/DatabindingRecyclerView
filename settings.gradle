@@ -1,0 +1,3 @@
+rootProject.name='RV'
+include ':app'
+include ':android-databinding-rv'
