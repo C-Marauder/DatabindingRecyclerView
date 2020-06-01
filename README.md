@@ -1,5 +1,5 @@
 # DatabindingRecyclerView
-使用DataBinding封装的RecyclerView库
+Androidx 使用DataBinding封装的RecyclerView库
 ### 1、依赖
 ```
 implementation 'com.xhh.android.rv:android-databinding-rv:1.0.0'
