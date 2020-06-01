@@ -64,3 +64,4 @@ recyclerView.bindAdapter(
             adapter = mDataBindingAdapter
         }
 ```
+![image](https://github.com/xqy666666/DatabindingRecyclerView/blob/master/RecyclerView.gif)
